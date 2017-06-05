@@ -1,0 +1,27 @@
+.contact-form{
+	margin-top: 4%;
+}
+.contact-form h2{
+	width: 100%;
+	text-align: center;
+}
+.contact-form form {
+	width: 50%;
+}
+.contact-form form label, .contact-form form input, .contact-form form textarea{
+	width: 100%;
+	padding: 5px;
+}
+.contact-form form div{
+	margin-top: 10px;
+}
+.contact-form form input, .contact-form form textarea{
+	border-radius: 5px;
+	border: 1px solid #cdcdcd;
+}
+.contact-form form input[type='submit']{
+	background: #2b2b2b;
+	color: #fff;
+	margin: 15px 0px 0px 10px;
+	cursor: pointer;
+}

@@ -1,0 +1,35 @@
+/*Estilizando Sobre mim*/
+
+main .about{
+	width: 50%;
+	height: 100vh;
+	background: rgba(0, 255, 187, .9);
+}
+main:after{
+	content: '';
+	width: 50%;
+	height: 100vh;
+	background: rgba(0, 162, 147, .9);
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+main .about section{
+	width: 50%;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 1;
+	transform: translate(-50%, -50%);
+}
+main .about section h2{
+	color: #fff;
+	font-size: 60px;
+}
+
+main .about section article p{
+	color: #fff;
+	font-size: 22px;
+	line-height: 1.5;
+}

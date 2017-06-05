@@ -1,0 +1,56 @@
+.skills{
+	margin-top: 100px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	position: relative;
+}
+.skills h2, .skills h3{
+	text-align: center;
+}
+.skills h2{
+	width: 100%;
+}
+
+.skills > div{
+	width: 396px;
+	height: 175px;
+	margin: 10% 1.2% 0;
+}
+
+.skills h3{
+	color: #fff;
+	font-size: 50px;
+}
+
+.skills .html{
+	background: #EC9B00;
+}
+.skills .css{
+	background: #0053EC;
+}
+.skills .javascript{
+	background: #E8E502;
+}
+.skills .level{
+	width: 396px;
+	height: 20px;
+	background: #E4E4E4;
+	position: absolute;
+	bottom: 0;
+}
+.skills .level > div{
+	background: #0458E2;
+}
+.skills .html .level > div{
+	width: 95%;
+}
+.skills .css .level > div{
+	width: 75%;
+}
+.skills .javascript .level > div{
+	width: 87%;
+}
+.skills .level > div p{
+	text-align: center;
+	color: #fff;
+}

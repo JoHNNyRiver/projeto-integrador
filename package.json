@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Este é um site curriculo para apresentação ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Augusto",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-watch": "^4.3.11",
+    "jshint": "^2.9.4",
+    "run-sequence": "^1.2.2"
+  },
+  "dependencies": {
+    "crossroads": "^0.12.2",
+    "hasher": "^1.2.0"
+  }
+}

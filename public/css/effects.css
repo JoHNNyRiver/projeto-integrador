@@ -1,0 +1,25 @@
+@keyframes animate{
+	0%{
+		transform: scale(.1,.1);
+	}
+	50%{
+		transform: scale(1.8,1.8);
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+@keyframes showanimate{
+	0%{
+		opacity: 0;
+	}
+	25%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}

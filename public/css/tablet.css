@@ -1,0 +1,8 @@
+@media screen and (min-width: 768px) and (max-width: 1366px){
+	main{
+		background-image: url(../../public/images/profilenote.jpg);
+	}
+	.contact-form form {
+		width: 70%;
+	}
+}
